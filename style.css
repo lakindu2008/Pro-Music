@@ -1,0 +1,193 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background-color: rgb(255, 255, 255);
+     
+}
+.row1{
+    display: flex;
+}
+.text1{
+    font-size: 14px;
+    font-family: "poppins",sans-serif;
+    font-weight: 300;
+    margin-top: 7%;
+    margin-left: 5%;
+}
+.svg1{
+    margin-top: 6%;
+    margin-left: 5%;
+}
+.svg2{
+    margin-top: 20%;
+    margin-left: 120%;
+}
+.play-box{
+    width: 60%;
+    height: 200px;
+    border-radius: 30px;
+    background-color: rgb(38, 41, 40);
+    margin-left: 20%;
+    margin-top: 40%;
+    
+    background-image: url(wallpaperflare.com_wallpaper\ \(2\).jpg);
+    background-size: cover;
+    box-shadow: 0px 0px 30px 0px rgb(160, 158, 158);
+}
+.row2{
+    display: flex;
+    gap: 30%;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+.svg3{
+    margin-top: 7%;
+    margin-left: -5%;
+}
+.text2{
+    font-family: "poppins",sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 7%;
+    margin-left:-10%
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+.container{
+    position: relative;
+    padding: 10px;
+}
+
+.container .song-info .song-name{
+    color: #b9b9b9;
+    font-size: 14px;
+    margin: 3px 0 20px;
+}
+
+.container .song-info .artist-name{
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.container .song-info .progress-bar{
+    background-color: #505050;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.container .song-info .progress-bar .fill-bar{
+    width: 0;
+    height: 6px;
+    border-radius: 20px;
+    background: #1db954;
+}
+
+.container .song-info .time{
+    font-size: 15px;
+    color: #b9b9b9;
+    margin: 10px 0;
+}
+
+.container .disk{
+    max-width: 120px;
+}
+
+.container .disk .active{
+    animation: rotate 3s linear 0s infinite forwards;
+}
+
+.container .disk .cover{
+    height: 145px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: url("assets/1.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    border: 3px solid #fff;
+    border-radius: 20%;
+    transition: all 0.2s ease-in-out;
+}
+
+
+.container .controls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 100px;
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+.container .controls #play{
+    background-color: #ffffff;
+    color: #fff;
+    padding: 15px 17px 14px 18px;
+    font-size: 28px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.container .controls #play:hover{
+    background: #36bd65;
+}
+
+.container .controls i{
+    padding: 30px 8px;
+    font-size: 35px;
+    cursor: pointer;
+    color: #919191;
+    transition: all 0.3s ease;
+}
+
+.container .controls i:hover{
+    color: #8b8585;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotateZ(0deg);
+    }
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
+.settings{
+   display: none;
+    width: 50%;
+    height: 270px;
+    background-color: #3a3d3a;
+    position: absolute;
+    top: 8%;
+    border-radius: 10px;
+    margin-left: 40%;
+}
+.click2{
+    border: solid;
+    background-color: #505050;
+    border: none;
+    color: white;
+    font-family: "poppins",sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    padding:12px 5px;
+    text-align: center;
+    border-radius: 10px;
+    width: 80%;
+    margin-left: 8%;
+}
+.svg8{
+    background-color: #ffffff;
+    border-radius: 30px;
+    margin-left: 80%;
+    margin-top: 5%;
+}
